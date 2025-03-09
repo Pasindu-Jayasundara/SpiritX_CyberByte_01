@@ -52,7 +52,7 @@ const Login = () => {
             />
             {errors.password && <p className="text-red-500">{errors.password}</p>}
           </div>
-          <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">
+          <button type="submit" className="w-full !bg-blue-500 text-white p-2 rounded hover:!bg-white hover:!text-blue-500 hover:border-blue-500 border border-blue-500 ">
             Login
           </button>
         </form>
